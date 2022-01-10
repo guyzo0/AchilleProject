@@ -5,9 +5,22 @@
 return ($heigh*$ratium)/3;
 }
 
-$result = pyramidVolume(6, 8);
+function factoriel($number)
+{
+    $i=1;
+    for($i=1; $i<$number; $i++)
+    {
+        $i = $i*($i+1);
+    }
+    return $i;
+}
 
-echo $result;
+$result1 = pyramidVolume(6, 8);
+$result2 = factoriel(9);
+
+
+echo $result1;
+echo $result2
 
 
 ?>
