@@ -15,12 +15,20 @@ function factoriel($number)
     return $i;
 }
 
+function average($number1, $number2, $number3)
+{
+    $average = ($number1 + $number2 + $number3)/3;
+    return $average;
+}
+
 $result1 = pyramidVolume(6, 8);
 $result2 = factoriel(9);
+$result3 = average(67, 9, 5);
 
 
 echo $result1;
-echo $result2
+echo $result2;
+echo $result3;
 
 
 ?>
